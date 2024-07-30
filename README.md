@@ -31,5 +31,8 @@ Inversion de dependencias, ya que al estar mezclados los modulos en una misma in
 
 ### Clase "PartTimeEmployee.java"
 
+En esta clase se viola el principio de substitucion de liskov, ya que se esta sobre escribiendo un metodo procedente de la clase padre solo para poner una excepción en este caso "throw new UnsupportedOperationException();"
 
 ### Clase "SalaryCalculator.java"
+
+
