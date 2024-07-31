@@ -25,7 +25,7 @@ En la clase "Employee.java" no se viola ningún principio solid
 
 ### Clase "ReportGenerator.java"
 
-
+En esta clase se viola el _principio de inversión de dependencias_, ya que un módulo de alto nivel, como lo es ReportGenerator, depende de módulos de bajo nivel, como 'generateReportExcel' y 'generateReportPDF'
 
 ### Clase "EmployeeManager.java"
 
@@ -39,4 +39,4 @@ En esta clase se viola el _principio de substitucion de liskov_, ya que se esper
 
 ### Clase "SalaryCalculator.java"
 
-
+En esta clase se viola el _principio de inversión de dependencias_, ya que depende de la clase 'EmployeeManager' y no de una abstracción.
