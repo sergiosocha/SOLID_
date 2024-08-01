@@ -2,7 +2,7 @@ package main;
 
 import com.example.demo.unsolid.Employee;
 
-public class OnSiteEmployee implements Employee {
+public class FullTimeEmployee implements Employee {
 
     @Override
     public String name() {
