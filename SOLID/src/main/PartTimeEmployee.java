@@ -1,6 +1,5 @@
-package main;
+package com.SOLID.src.main;
 
-import com.example.demo.unsolid.Employee;
 
 public class PartTimeEmployee implements Employee {
 

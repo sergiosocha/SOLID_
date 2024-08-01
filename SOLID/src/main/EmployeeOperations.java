@@ -1,4 +1,4 @@
-package main;
+package com.SOLID.src.main;
 
 public interface EmployeeOperations {
     void addEmployee(String name);
