@@ -3,7 +3,7 @@ package main;
 
 public class ReportGeneratorPDF implements ReportGenerator{
 
-    public void generateReport() {
+    public void generateReport(EmployeeManager employeeManager) {
         // Generar reporte
     }
 

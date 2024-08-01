@@ -1,8 +1,8 @@
-package com.SOLID.src.main;
+package main;
 
-public class ReportGeneratorExcel implements main.ReportGenerator {
+public class ReportGeneratorExcel implements ReportGenerator{
 
-    public void generateReport() {
+    public void generateReport(EmployeeManager employeeManager) {
         // Generar reporte
     }
 
