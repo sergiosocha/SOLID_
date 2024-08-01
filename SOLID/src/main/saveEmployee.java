@@ -1,4 +1,4 @@
-package com.example.demo.unsolid;
+package main;
 
 public interface saveEmployee {
 

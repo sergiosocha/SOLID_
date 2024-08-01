@@ -1,6 +1,6 @@
 package main;
 
-import com.example.demo.unsolid.Employee;
+import main.Employee;
 
 public class PartTimeEmployee implements Employee {
 
