@@ -1,6 +1,6 @@
 package main;
 
-public interface saveEmployee {
+public interface EmployeePersistence {
 
     void saveToFile (String name);
 }

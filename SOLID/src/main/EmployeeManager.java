@@ -1,6 +1,6 @@
 package main;
 
-public class EmployeeManager implements main.EmployeeOperations {
+public class EmployeeManager implements EmployeeManagement {
 
 
     @Override
@@ -13,13 +13,4 @@ public class EmployeeManager implements main.EmployeeOperations {
 
     }
 
-    @Override
-    public double calculateSalary(String name) {
-        return 0;
-    }
-
-    @Override
-    public void saveToFile(String name) {
-
-    }
 }
