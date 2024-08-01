@@ -35,8 +35,8 @@ Tambien se viola el principio de _Segregación de interfaces_ por que no se debe
 
 ### Clase "PartTimeEmployee.java"
 
-En esta clase se viola el _principio de substitucion de liskov_, ya que se espera que el método procedente de la clase padre como lo es 'getName' funcione correctamente pero al sustituirlo en este caso solo genera una excepción "throw new UnsupportedOperationException();"
+En esta clase se viola el _principio de substitucion de liskov_, ya que se espera que el método procedente de la clase padre como lo es 'getName' funcione correctamente pero al sustituirlo en este caso solo genera una excepción "throw new UnsupportedOperationException(), a simple vista se puede considerar un code smell, ya que la excepción indica que PartTimeEmployee no debe heredar el comportamiento de Employee, si se utiliza la clase de PartTimeEmployee es muy probable que como resultado se obtenga la excepción, y si la excepción existe es porque fallará al menos en la mayoría de casos. ;"
 
 ### Clase "SalaryCalculator.java"
 
-En esta clase se viola el _principio de inversión de dependencias_, ya que depende de la clase 'EmployeeManager' y no de una abstracción.
+En esta clase se viola el _principio de inversión de dependencias_, ya que depende de la clase 'EmployeeManager' y no de una abstracción, esto genera un nivel de acoplamiento en el que si afecto o genero un cambio employeemanager directamente se afecta salaryCalculator, siendo employeeManager una de las clases que se deben refactorizar generaría errores en este caso en el calculo del salario, que depende de esta, cierra en gran medida la eficiencia con la que se puede escalar el codigo de forma limpia.
