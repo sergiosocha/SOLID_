@@ -1,4 +1,4 @@
-package com.SOLID.src.main;
+package main;
 
 
 public class PartTimeEmployee implements Employee {
