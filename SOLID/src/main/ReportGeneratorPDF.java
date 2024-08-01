@@ -1,8 +1,10 @@
 package main;
 
-public class ReportGeneratorPDF{
+import main.ReportGenerator;
 
-    public void generateReport(EmployeeManager employeeManager) {
+public class ReportGeneratorPDF implements ReportGenerator{
+
+    public void generateReport() {
         // Generar reporte
     }
 
