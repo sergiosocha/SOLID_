@@ -1,21 +1,25 @@
 package main;
 
-public class EmployeeManager implements EmployeeOperations {
+public class EmployeeManager implements main.EmployeeOperations {
 
+
+    @Override
     public void addEmployee(String name) {
-        // Agregar empleado
+
     }
 
+    @Override
     public void removeEmployee(String name) {
-        // Eliminar empleado
+
     }
 
+    @Override
     public double calculateSalary(String name) {
-        // Calcular salario
-        return 0.0;
+        return 0;
     }
 
+    @Override
     public void saveToFile(String name) {
-        // Guardar en archivo
+
     }
 }
