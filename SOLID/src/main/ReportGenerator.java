@@ -1,5 +1,5 @@
 package main;
 
 public interface ReportGenerator {
-    void generateReport();
+    void generateReport(EmployeeManager employeeManager);
 }
